@@ -1,0 +1,9 @@
+name: Code Signing
+on: workflow_dispatch
+jobs:
+  sign-driver:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sign driver placeholder
+        run: echo "Integrate EV signing flow via HSM/KeyVault"

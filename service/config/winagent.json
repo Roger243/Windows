@@ -1,0 +1,8 @@
+{
+  "service_name": "WinAgentSvc",
+  "log_level": "info",
+  "tick_interval_ms": 1000,
+  "driver_device": "\\\\.\\WinAgentDrv",
+  "sandbox_enabled": true,
+  "ai_enabled": true
+}
