@@ -1,0 +1,8 @@
+{
+  "level": "info",
+  "file": "logs/winagent.log",
+  "max_size_mb": 50,
+  "max_files": 5,
+  "console": true,
+  "format": "[%Y-%m-%d %H:%M:%S] [%l] %v"
+}

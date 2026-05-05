@@ -1,0 +1,11 @@
+{
+  "max_cpu_percent": 25,
+  "max_memory_mb": 512,
+  "allow_network": false,
+  "allowed_syscalls": [
+    "NtReadFile",
+    "NtWriteFile",
+    "NtQueryInformationProcess"
+  ],
+  "isolation_level": "strict"
+}

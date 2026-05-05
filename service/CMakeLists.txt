@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.25)
+project(WinAgentService CXX)
+file(GLOB_RECURSE SVC_SRC src/*.cpp)
+add_executable(WinAgentSvc ${SVC_SRC})
+target_link_libraries(WinAgentSvc PRIVATE onnxruntime nlohmann_json::nlohmann_json spdlog::spdlog)

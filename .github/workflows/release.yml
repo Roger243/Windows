@@ -1,0 +1,12 @@
+name: Release
+on:
+  push:
+    tags:
+      - "v*"
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Draft release
+        uses: softprops/action-gh-release@v2

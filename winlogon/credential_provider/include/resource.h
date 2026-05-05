@@ -1,0 +1,4 @@
+#pragma once
+#define IDI_PROVIDER_ICON 101
+#define IDS_PROVIDER_NAME 102
+#define IDR_WINAGENTCP 103

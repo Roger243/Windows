@@ -1,0 +1,13 @@
+{
+  "model_name": "winagent-decision-v1",
+  "version": "0.1.0",
+  "input_dims": [
+    1,
+    128
+  ],
+  "output_dims": [
+    1,
+    16
+  ],
+  "quantized": false
+}
