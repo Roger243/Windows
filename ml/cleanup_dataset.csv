@@ -1,0 +1,9 @@
+category,path_pattern,size_mb,age_days,safe_to_clean
+user_temp,%TEMP%,120,7,1
+user_temp,%TEMP%,45,1,1
+system_temp,%SystemRoot%\\Temp,300,14,1
+system_temp,%SystemRoot%\\Temp,80,2,1
+prefetch,%SystemRoot%\\Prefetch,50,10,0
+windows_system,%SystemRoot%\\System32,500,30,0
+user_documents,%USERPROFILE%\\Documents,100,90,0
+recycle_bin,RecycleBin,250,20,1
